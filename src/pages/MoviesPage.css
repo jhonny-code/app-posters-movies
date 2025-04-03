@@ -1,0 +1,38 @@
+/* src/pages/HomePage.css */
+.app-container {
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+  
+  .app-title {
+    text-align: center;
+  }
+  
+  .search-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .search-input {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+  }
+  
+  .movies-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  
+  .movie-item {
+    text-align: center;
+  }
+  
+  .pagination-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
